@@ -1,0 +1,8 @@
+void main() {
+  print(calculateArea());          
+  print(calculateArea(5, 4));      
+}
+
+double calculateArea([double length = 1, double width = 1]) {
+  return length * width;
+}
