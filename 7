@@ -1,0 +1,12 @@
+void main() {
+  int result = power(5, 3);
+  print("Result: $result");
+}
+
+int power(int base, int exponent) {
+  int result = 1;
+  for (int i = 0; i < exponent; i++) {
+    result *= base;
+  }
+  return result;
+}
